@@ -1,0 +1,9 @@
+{
+  "id": "1",
+  "subject": "MenuManagementPage 업데이트",
+  "description": "파일: /Users/grip_0266/GripCompany/kiro/table-order-bizcenter-client/src/pages/MenuManagementPage.tsx\n\n새 타입 시스템에 맞춰 전면 업데이트해줘. 반드시 src/types/index.ts와 src/data/mock.ts를 먼저 읽고 타입을 맞춰.\n\n주요 변경사항:\n1. Menu 타입: id는 number, categories는 {id:number, name:string}[] (categoryIds 대신), isDeleted 필드 있음, description/imageUrl은 string|null\n2. 삭제된 메뉴(isDeleted=true)도 목록에 회색+삭제됨 뱃지로 표시 (필터링하지 않음)\n3. 삭제된 메뉴는 품절 토글 비활성화\n4. 메뉴 순서 변경: 위/아래 화살표 버튼 추가 (react-icons의 MdArrowUpward, MdArrowDownward 사용, JSX가 아닌 함수호출 방식으로: {MdArrowUpward({size:18})})\n5. 카테고리 필터는 category.id (number)\n6. 메뉴명 필수 1~100자, 가격 0~1,000,000, 카테고리 1개 이상\n7. fmt() 유틸은 src/utils.ts에서 import\n8. MOCK_CATEGORIES는 {id:number, name:string, displayOrder:number}\n9. 스타일링은 Tailwind CSS",
+  "status": "pending",
+  "owner": null,
+  "result": null,
+  "createdAt": "2026-03-05T06:51:18.061Z"
+}

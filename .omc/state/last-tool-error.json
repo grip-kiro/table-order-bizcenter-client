@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"npx tsc --noEmit 2>&1\",\"description\":\"Run TypeScript type check\"}",
+  "error": "Exit code 2\nsrc/pages/DashboardPage.tsx(314,16): error TS2304: Cannot find name 'filteredHistoryOrders'.\nsrc/pages/DashboardPage.tsx(318,20): error TS2304: Cannot find name 'filteredHistoryOrders'.\nsrc/pages/DashboardPage.tsx(318,46): error TS7006: Parameter 'h' implicitly has an 'any' type.\nsrc/pages/DashboardPage.tsx(332,38): error TS7006: Parameter 'item' implicitly has an 'any' type.\n\nsrc/pages/DashboardPage.tsx(314,16): error TS2304: Cannot find name 'filteredHistoryOrders'.\nsrc/pages/Dashb...",
+  "timestamp": "2026-03-05T07:14:20.385Z",
+  "retry_count": 1
+}

@@ -1,0 +1,291 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1772694134386,
+  "projectRoot": "/Users/grip_0266/GripCompany/kiro/table-order-bizcenter-client",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "react",
+        "version": "19.2.4",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "19.2.4",
+        "category": "frontend"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "npm run build",
+    "testCommand": "npm test",
+    "lintCommand": null,
+    "devCommand": "npm run start",
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": "type-based"
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "public",
+      "src"
+    ],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "build": {
+      "path": "build",
+      "purpose": "Build output",
+      "fileCount": 7,
+      "lastAccessed": 1772694134369,
+      "keyFiles": [
+        "asset-manifest.json",
+        "favicon.ico",
+        "index.html",
+        "logo192.png",
+        "logo512.png"
+      ]
+    },
+    "public": {
+      "path": "public",
+      "purpose": "Public files",
+      "fileCount": 6,
+      "lastAccessed": 1772694134370,
+      "keyFiles": [
+        "favicon.ico",
+        "index.html",
+        "logo192.png",
+        "logo512.png",
+        "manifest.json"
+      ]
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 5,
+      "lastAccessed": 1772694134372,
+      "keyFiles": [
+        "App.tsx",
+        "index.css",
+        "index.tsx",
+        "react-app-env.d.ts",
+        "utils.ts"
+      ]
+    },
+    "build/static": {
+      "path": "build/static",
+      "purpose": "Static files",
+      "fileCount": 0,
+      "lastAccessed": 1772694134372,
+      "keyFiles": []
+    },
+    "src/api": {
+      "path": "src/api",
+      "purpose": "API routes",
+      "fileCount": 0,
+      "lastAccessed": 1772694134373,
+      "keyFiles": []
+    },
+    "src/components": {
+      "path": "src/components",
+      "purpose": "UI components",
+      "fileCount": 5,
+      "lastAccessed": 1772694134373,
+      "keyFiles": [
+        "ConfirmModal.tsx",
+        "Layout.tsx",
+        "Sidebar.tsx"
+      ]
+    },
+    "src/data": {
+      "path": "src/data",
+      "purpose": "Data files",
+      "fileCount": 1,
+      "lastAccessed": 1772694134373,
+      "keyFiles": [
+        "mock.ts"
+      ]
+    },
+    "src/pages": {
+      "path": "src/pages",
+      "purpose": "Page components",
+      "fileCount": 5,
+      "lastAccessed": 1772694134373,
+      "keyFiles": [
+        "CategoryManagementPage.tsx",
+        "DashboardPage.tsx",
+        "LoginPage.tsx"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "src/pages/DashboardPage.tsx",
+      "accessCount": 14,
+      "lastAccessed": 1772694899263,
+      "type": "file"
+    },
+    {
+      "path": "src/hooks/useAuth.ts",
+      "accessCount": 8,
+      "lastAccessed": 1772694842137,
+      "type": "file"
+    },
+    {
+      "path": "src/pages/MenuManagementPage.tsx",
+      "accessCount": 7,
+      "lastAccessed": 1772694719974,
+      "type": "file"
+    },
+    {
+      "path": "src/api/tables.ts",
+      "accessCount": 6,
+      "lastAccessed": 1772694725803,
+      "type": "file"
+    },
+    {
+      "path": "src/api/orders.ts",
+      "accessCount": 6,
+      "lastAccessed": 1772694898788,
+      "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 5,
+      "lastAccessed": 1772694276842,
+      "type": "directory"
+    },
+    {
+      "path": "src/pages/LoginPage.tsx",
+      "accessCount": 5,
+      "lastAccessed": 1772694723093,
+      "type": "file"
+    },
+    {
+      "path": "src/api/auth.ts",
+      "accessCount": 5,
+      "lastAccessed": 1772694838226,
+      "type": "file"
+    },
+    {
+      "path": "src/api/client.ts",
+      "accessCount": 5,
+      "lastAccessed": 1772694850374,
+      "type": "file"
+    },
+    {
+      "path": "src/App.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1772694835221,
+      "type": "file"
+    },
+    {
+      "path": "src/pages/TableManagementPage.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1772694720026,
+      "type": "file"
+    },
+    {
+      "path": "src/pages/CategoryManagementPage.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1772694720641,
+      "type": "file"
+    },
+    {
+      "path": "src/types/index.ts",
+      "accessCount": 2,
+      "lastAccessed": 1772694285585,
+      "type": "file"
+    },
+    {
+      "path": "src/api/index.ts",
+      "accessCount": 2,
+      "lastAccessed": 1772694286336,
+      "type": "file"
+    },
+    {
+      "path": "src",
+      "accessCount": 2,
+      "lastAccessed": 1772694714417,
+      "type": "directory"
+    },
+    {
+      "path": "src/api/menus.ts",
+      "accessCount": 2,
+      "lastAccessed": 1772694726018,
+      "type": "file"
+    },
+    {
+      "path": "src/api/categories.ts",
+      "accessCount": 2,
+      "lastAccessed": 1772694726471,
+      "type": "file"
+    },
+    {
+      "path": "src/utils.ts",
+      "accessCount": 1,
+      "lastAccessed": 1772694148309,
+      "type": "file"
+    },
+    {
+      "path": "src/types",
+      "accessCount": 1,
+      "lastAccessed": 1772694282571,
+      "type": "directory"
+    },
+    {
+      "path": "src/data/mock.ts",
+      "accessCount": 1,
+      "lastAccessed": 1772694716538,
+      "type": "file"
+    },
+    {
+      "path": "src/components/Layout.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1772694716684,
+      "type": "file"
+    },
+    {
+      "path": "src/components/Sidebar.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1772694723645,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
